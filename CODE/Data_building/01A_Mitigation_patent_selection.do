@@ -1,9 +1,9 @@
-*=== Nature Energy: July 2021
-*=== Paper title: 
-*				Global Trends in the Invention and Diffusion 
-*				of Climate Change Mitigation Technologies
+*=== NACI Report: 2026
+*=== Chapter title: 
+*				Sustainability and climate Change 
+*				Climate Change Mitigation Technologies
 *=== Objective: 
-* - Selection of patents (application id) protecting climate change mitigation technologies
+* - Selection of patents (CPC id) for climate change mitigation technologies
 
 
 **************************************************************************************************************************
@@ -41,10 +41,11 @@
  /// Focus on subfields: Renewables (Energy CCMT) 
   use "$datapath/Y02_PatstatCAT_mitigation.dta", clear
   keep if [regexm(cpc_code,"Y02E10")==1]
-  save "$datapath/Focus_RE_PatstatCAT_mitigation_2018.dta", replace
+  save "$datapath/Focus_RE_PatstatCAT_mitigation_2026.dta", replace
 
 *=============================================
 *=============================================
 *=============================================
 *=============================================
 *=============================================
+
